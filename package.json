@@ -1,0 +1,20 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-zip": "^2.0.1",
+    "lodash": "^4.17.15",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.1",
+    "yup": "^0.27.0"
+  }
+}

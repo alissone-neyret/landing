@@ -1,0 +1,234 @@
+@font-face {
+  font-family: Geomanist;
+  src: url("../Geomanist/Geomanist-Regular.otf")
+}
+
+@font-face {
+  font-family: Geomanist-light;
+  src: url("../Geomanist/Geomanist-Light.otf");
+}
+
+@font-face {
+  font-family: Geomanist-bold;
+  src: url("../Geomanist/Geomanist-Medium.otf");
+}
+
+@font-face {
+  font-family: Gibson;
+  src: url('../Geomanist/Geomanist-Regular.ttf');
+}
+
+body{
+  font-family: Geomanist, sans-serif;
+}
+
+.logo-hellia{
+  width: 120px;
+  height: auto;
+}
+
+p#sous-titre{
+  font-weight: 600;
+}
+
+h2, p{
+  color: #4A4A4A;
+}
+
+a{
+  color: #15B9BF;
+  outline: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 100;
+  letter-spacing: 0.6px;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  font-size: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+}
+
+header, h1, section img, p{
+  margin: 0 8%;
+}
+
+
+
+
+
+@media (max-width: 849px){
+  header{
+    height: 80px;
+  }
+
+  section{
+    padding-top: 80px;
+  }
+
+  section img{
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  h1{
+    font-size: 2.6em;
+  }
+
+  p#sous-titre{
+    font-size: 1.4em;
+    padding: 10px 0 25px;
+  }
+
+  p{
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 1999px){
+  header img{
+    width: 45%;
+  }
+}
+
+
+
+
+
+@media (min-width: 850px) and (max-width: 1999px){
+  header{
+    height: 100px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1199px){
+  section img{
+    max-width: 0px;
+    padding: 20px 0 0;
+  }
+
+  h1{
+    font-size: 3em;
+  }
+
+  p#sous-titre{
+    font-size: 1.7em;
+    padding: 10px 0 25px;
+  }
+
+  p{
+    font-size: 1.1em;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+  section img{
+    max-width: 250px;
+    padding: 30px 0 0;
+  }
+
+  h1{
+    font-size: 3.2em;
+  }
+
+  p#sous-titre{
+    font-size: 1.8em;
+    padding: 10px 0 25px;
+  }
+
+  p{
+    font-size: 1.2em;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1999px){
+  section img{
+    max-width: 250px;
+    padding: 30px 0 0;
+  }
+
+  h1{
+    font-size: 3.5em;
+  }
+
+  p#sous-titre{
+    font-size: 2em;
+    padding: 10px 0 25px;
+  }
+
+  p{
+    font-size: 1.3em;
+    line-height: 30px;
+  }
+}
+
+
+
+
+
+@media (min-width: 850px){
+  body {
+    overflow-y: auto;
+  }
+
+  section{
+    box-sizing: border-box;
+    background-image: url("../medias/background-patience-hellia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+  }
+
+  section{
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 2000px){
+  header{
+    height: 150px;
+  }
+
+  header img{
+    width: 75%;
+  }
+
+  section img{
+    max-width: 400px;
+    padding: 30px 0 0;
+  }
+
+  h1{
+    font-size: 4em;
+  }
+
+  p#sous-titre{
+    font-size: 2.2em;
+    padding: 10px 0 25px;
+  }
+
+  p{
+    font-size: 1.5em;
+    line-height: 40px;
+  }
+}
